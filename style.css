@@ -117,7 +117,7 @@ h1{
 }
 .gree{
     background-color: rgb(154, 214, 154);
-    width: 136px;
+    /* width: 136px; */
     height: 25px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -128,7 +128,7 @@ h1{
 }
 .re{
     background-color: rgb(224, 149, 149);
-    width: 136px;
+    /* width: 136px; */
     height: 25px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -148,7 +148,7 @@ p{
     font-size: 0.8rem;
 }
 .nav-ind{
-    margin-top: 20px;
+    margin-top: 0px;
     /* background-color: red; */
     text-align: center;
     width: 100%;
@@ -157,12 +157,20 @@ p{
     padding: 10px;
     border-radius: 30px;
 }
+.buy{
+    position: absolute;
+    top: -25px;
+    left: 113px;
+    color: rgb(91, 91, 226);
+    font-weight: 600 ;
+}
 
 .sec-last{
     /* background-color: red; */
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    position: relative;
 }
 .sec-last-span{
     /* background-color: aqua; */
