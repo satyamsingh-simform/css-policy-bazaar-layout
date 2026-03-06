@@ -273,18 +273,20 @@ h1{
     width: 132px;
     text-align: center;
 }
-.nav-ind{
+.nav-btn{
     margin-top: 0px;
-    /* background-color: red; */
     text-align: center;
     width: 100%;
     margin-bottom: 40px;
 }
-.ind{
+.view-btn{
     padding: 10px;
     border-radius: 30px;
     font-size: 0.7rem;
     font-weight: 600;
+}
+.hover-btn:hover{
+    cursor: pointer;
 }
 
 
@@ -332,14 +334,16 @@ h1{
 }
 .sec-last ul{
     padding: 1px;
-    font-size: 0.7rem;
     margin-left: 15px;
 }
 .sec-last li{
-    text-indent: -5px;
     color: salmon;
+    font-size: 0.71rem;
 }
-
+.sec-last span{
+    margin-left: 5px;
+    font-size: 0.82rem;
+}
 
 .sec-sip{
     width: 100vw;
@@ -696,11 +700,8 @@ h1{
     width: 350px; */
     border: 1px solid black;
 }
-.sec-app-right{
-    border: 1px solid rgb(71, 68, 68);
-}
-.sec-app-right img{
-    height: 200px;
+.sec-app-img:hover{
+    cursor: pointer;
 }
 
 
@@ -822,7 +823,7 @@ h1{
     justify-content: space-between;
     line-height: 2;
 }
-.foot-div-top p,li{
+.foot-div-top a,li{
     color: rgb(196, 194, 194);
     font-size: 0.9rem;
 }
@@ -838,6 +839,22 @@ h1{
     top:2px;
     margin-right: 5px;
 }
+.div-left ul{
+    list-style: none;
+}
+.div-mid, .div-end, .div-last{
+    display: flex;
+    flex-direction: column;
+}
+.div-mid ul{
+    list-style: none;
+}
+.div-mid a{
+    color: rgb(196, 194, 194);
+}
+
+
+
 
 .foot-div-mid{
     /* height: 50px;
